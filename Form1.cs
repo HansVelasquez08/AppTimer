@@ -31,6 +31,7 @@ namespace AppTimer
                 Y += SpeedY;
                 PictureBox.Location = new Point(X, Y); // Actualizar la posición del PictureBox
                 form.Refresh(); // Forzar la actualización del formulario
+                Console.WriteLine($"Posición de {PictureBox.Name}: X = {X}, Y = {Y}");
             }
 
             // Método para verificar colisiones con otro objeto
